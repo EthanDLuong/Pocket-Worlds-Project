@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="minigameui" name="_minigameUI">
+
+    <!-- Leaderboard -->
+    <VisualElement class="leaderboard" name="_leaderboardContainer">
+      <Label class="leaderboard-header" name="_leaderboardHeader" text="Leaderboard:" />
+    </VisualElement>
+
+    <!-- Root Element -->
+    <VisualElement class="container">
+
+      <!-- Header -->
+      <VisualElement class="header">
+        <Label class="progress-bar" text="PROGRESS" />
+      </VisualElement>
+
+      <!-- Sliders -->
+      <hr:UISlider class ="arm-wrestling" name="_armWrestling" picking-mode="Ignore">
+        <Label class="minigame-score" name="_minigameScore" text="0" />
+      </hr:UISlider>
+      
+    </VisualElement>
+      
+      
+    <!-- Button -->
+    <VisualElement class="button" name="_button">
+      <Image class="button-icon" />
+    </VisualElement>
+
+  </hr:UILuaView>
+</UXML>

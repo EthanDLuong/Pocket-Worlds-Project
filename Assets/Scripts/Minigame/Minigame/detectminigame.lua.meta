@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6dff9d673f685f842ae1e0fdf559e18f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 1355218169, guid: 6f9c394430e33933bbac989b158f2ac4, type: 3}
+  _scriptType: 0
+  _defaultReferences:
+  - Name: PlayerManagerScript
+    Value: {fileID: -974389366465450183, guid: cc3ab636e6ed58c4e8ba90abb1e54746, type: 3}
+  _lastErrorLine: 0

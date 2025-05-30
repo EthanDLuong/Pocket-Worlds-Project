@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 258248712, guid: a215bd465061e3c4abe0b86c7c8c3d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetMappings:
+  - Guid: 255ded189f01c7747902ac8bf84b53b1
+    StoreId: 665905156e9f2ad62c40e9a4
+    Name: Wooden Chair
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/665905156e9f2ad62c40e9a4/18fcbbc2ff8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/665905156e9f2ad62c40e9a4/18fcbbc2058_0.jpg
+    AdditionalAssetGUIDs:
+    - acefc7f32d298ba468ca49a2dd268365
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: e547dfea32a222b4c996d8f80daff0e0
+    StoreId: 6659044a6e9f2ad62c40e998
+    Name: Wooden Table Round 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6659044a6e9f2ad62c40e998/18fcbb8ec08_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6659044a6e9f2ad62c40e998/18fcbb8e050_0.jpg
+    AdditionalAssetGUIDs:
+    - 6db6b81eebd2f8e49bf1eb3949450a13
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0

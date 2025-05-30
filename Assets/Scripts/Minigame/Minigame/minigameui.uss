@@ -1,0 +1,130 @@
+.minigameui {
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 30%;
+
+    min-width: 150px;
+    min-height: 200px;
+
+    max-width: 500px;
+    max-height: 700px;
+
+    background-color: tan;
+
+    overflow: hidden;
+
+    border-radius: 30px;
+}
+
+.header {
+    width: 100%;
+    padding: 5px;
+
+    height: 50px;
+
+    align-items: center;
+    justify-content: center;
+
+    -unity-text-align: middle-center;
+
+    color: white;
+    font-size: 20px;
+
+    -unity-font-definition: var(--font-black);
+    border-bottom-width: 2px;
+
+    border-bottom-color: #1e1e1e;
+    background-color: #36353b;
+}
+
+.button {
+    align-items: center;
+    justify-content: center;
+
+    min-width: 100px;
+    min-height: 100px;
+
+    max-width: 300px;
+    max-height: 300px;
+
+    top: 80px;
+
+    transition-property: all;
+    transition-duration: 0.2s;
+
+    background-color: purple;
+    border-radius: 8px;
+}
+
+.button Image {
+    width: 100px;
+    height: 100px;
+}
+
+.arm-wrestling {
+  width: 100%;
+  height: 20%;
+}
+
+.arm-wrestling .slider__foreground {
+    background-color: transparent;
+}
+
+.arm-wrestling .slider__knob {
+    border-color: green;
+}
+
+.target-red {
+    width: 25px;
+    height: 20px;
+    background-color: red;
+    border-radius: 90%;
+
+    position: absolute;
+
+    top: 8px;
+}
+
+.target-green {
+    width: 10px;
+    height: 20px;
+    background-color: green;
+    border-radius: 90%;
+
+    position: absolute;
+
+    top: 8px;
+}
+
+.leaderboard {
+    align-items: center;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 8px;
+    width: 300px;
+    margin-top: 10px;
+
+    bottom: 180px;
+}
+
+.leaderboard-header {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.leaderboard-entry {
+  color: white;
+  font-size: 14px;
+  padding: 2px;
+  top: 15px;
+}
